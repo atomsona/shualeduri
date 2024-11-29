@@ -1,0 +1,30 @@
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.App-header h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.App-header ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+}
+
+.App-header li {
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+}
+
+.App-header li:hover {
+  color: #000;
+}

@@ -1,0 +1,53 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Navbar-burger {
+    display: none;
+  }
+  
+  .Navbar-menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .Navbar-menu.open {
+    display: block;
+  }
+  
+  .Navbar-cart {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .Navbar-cart-items {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  
+  .Navbar-cart:hover .Navbar-cart-items {
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .Navbar-burger {
+      display: block;
+    }
+  
+    .Navbar-menu {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

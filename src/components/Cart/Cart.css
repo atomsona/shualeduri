@@ -1,0 +1,24 @@
+.Cart {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.Cart-item p {
+  font-size: 16px;
+}
+
+.Cart-total {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: right;
+}
